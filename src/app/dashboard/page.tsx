@@ -54,13 +54,8 @@ const DashboardPage = async (props: Props) => {
           </div>
         )}
 
-        
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mt-8 pt-20 ">
-        
-       
-    <CreateNotesDialog />
-  
-  
+          <CreateNotesDialog />
           {notes.map((note) => (
             <a href={`/notebook/${note.id}`} key={note.id}>
               <div className="transition-transform transform hover:-translate-y-1 hover:scale-[1.02] duration-200 ease-in-out">

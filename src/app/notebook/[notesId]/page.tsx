@@ -15,6 +15,7 @@ import Animate from "@/components/Animate";
 import ShinyText from '@/components/ShinyText';
 
 
+
 const clerkClient = createClerkClient({ secretKey: process.env.CLERK_SECRET_KEY })
 
 type Props = {
@@ -43,7 +44,17 @@ const NotebookPage = async (props: Props) => {
   )
 
   if (notes.length !== 1) {
-    return redirect("/dashboard")
+    return (
+      <div className="min-h-screen flex flex-col items-center justify-center">
+        <h2 className="text-2xl font-bold mb-4">Note not found</h2>
+        <p className="mb-6">The note you are looking for does not exist or you do not have access to it.</p>
+        <Link href="/dashboard">
+          <Button className="bg-black text-white hover:bg-white hover:text-black border border-black hover:border-gray-300 transition rounded-md">
+            Go to Dashboard
+          </Button>
+        </Link>
+      </div>
+    )
   }
 
   const note = notes[0]
