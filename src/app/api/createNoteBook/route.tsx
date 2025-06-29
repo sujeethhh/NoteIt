@@ -5,6 +5,7 @@ import { auth } from "@clerk/nextjs/server";
 import { NextResponse } from "next/server";
 import { and, eq } from "drizzle-orm";
 import { redirect } from "next/navigation";
+export const runtime="edge";
 
 export async function POST(req: Request) {
   const { userId } = await auth();
