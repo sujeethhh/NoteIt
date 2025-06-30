@@ -53,7 +53,7 @@ Made entirely by [Sujeeth](https://github.com/sujeeth).
    ```
 
 5. **Open your browser:**  
-   Visit [http://localhost:3000](http://localhost:3000) and start typing!
+   Visit [https://note-it-mu.vercel.app](https://note-it-mu.vercel.app) and start typing!
 
 ---
 
