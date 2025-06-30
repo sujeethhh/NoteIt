@@ -12,7 +12,7 @@ const TypewriterTitle = (props: Props) => {
             loop: true
         }}
         onInit={(typewriter)=>{
-          typewriter.typeString("Clarity begins with a note 🗒️🔍")
+          typewriter.typeString("Clarity begins with a note. Start your flow with NoteFlow.")
           .pauseFor(2000).deleteAll()
           .start();  
         }}
