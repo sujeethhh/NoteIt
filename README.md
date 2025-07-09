@@ -3,7 +3,7 @@
 > **Clarity begins with a note.**  
 > _NOTE IT. BUILD IT!_
 
-Welcome to **NoteFlow** – a modern, AI-powered notebook app designed for creators, thinkers, and doers. Effortlessly capture, organize, and revisit your ideas with a beautiful, lightning-fast interface.  
+Welcome to **NoteFlow** – a modern, thinkers, and doers. Effortlessly capture, organize, and revisit your ideas with a beautiful, lightning-fast interface.  
 Made entirely by [Sujeeth](https://github.com/sujeeth).
 
 ---
